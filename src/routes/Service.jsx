@@ -6,9 +6,12 @@ import Trip from "../components/Trip";
 
 function Service() {
   return (
-    <>
-      <h1>Call The Components</h1>
-    </>
+    <><Navbar />
+    <Hero
+      cName="hero-about"
+      heroImg={AboutImg}
+      title="Services"     
+      btnClass="hide" /></>
   );
 }
 

@@ -1,1 +1,80 @@
-/* Style your components */
+/* DestinationStyles.css */
+.destination {
+  margin: 6rem 6rem;
+}
+
+.destination h1 {
+  font-size: 3rem;
+}
+
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.desc-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.desc h2 {
+  padding-bottom: 1.5rem;
+}
+.desc-text {
+  width: 48%;
+  text-align: start;
+  font-size: 1.1rem;
+}
+
+.image {
+  position: relative;
+  width: 50%;
+}
+.carousel {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  margin-top: 4rem;
+}
+.carousel .control-arrow {
+  background-color: black !important;
+  width: 40px;
+  height: 50px;
+}
+
+.carousel .control-arrow::before {
+  color: gray !important;
+}
+
+@media screen and (max-width: 850px) {
+  .destination {
+    margin: 4rem 2rem;
+  }
+  .desc {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+
+  .desc-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+  .desc-text {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+  .image img {
+    height: 250px;
+  }
+  .carousel {
+    height: 250px;
+  }
+}

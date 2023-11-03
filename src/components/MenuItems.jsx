@@ -12,8 +12,8 @@ export const MenuItems = [
     icon: "fa-solid fa-circle-info",
   },
   {
-    title: "Services",
-    url: "/services",
+    title: "Service",
+    url: "/service",
     cName: "nav-links",
     icon: "fa-solid fa-person-walking-luggage",
   },
