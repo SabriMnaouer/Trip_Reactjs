@@ -68,7 +68,7 @@ button:hover {
   display: none;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 555px) {
   .NavbarItems {
     opacity: 0.8;
   filter: alpha(opacity=50);
@@ -114,16 +114,16 @@ button:hover {
   .nav-links-mobile {
     display: block;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1rem;
     margin: auto;
     border-radius: 8px;
     width: 80%;
-    background-color: rgb(187, 81, 240);
+    background-color: orangered;
     text-decoration: none;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   .menu-icons {
     display: block;

@@ -20,6 +20,7 @@ function Home() {
         btnClass="show"
       />
       <Destination/>
+      <Trip/>
     </>
   );
 }
