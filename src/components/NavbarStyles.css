@@ -17,8 +17,8 @@
   z-index: 9999;
 }
 .navbar-logo {
-  color: rgba(226, 22, 22, 0.993);
-  font-size: 2rem;
+  width: 100px;
+  height: 2rem;
   cursor: pointer;
 }
 .nav-menu {
@@ -68,10 +68,10 @@ button:hover {
   display: none;
 }
 
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 850px) {
   .NavbarItems {
     opacity: 0.8;
-  filter: alpha(opacity=50);
+    filter: alpha(opacity=50);
     z-index: 99;
   }
   .nav-menu {

@@ -1,1 +1,96 @@
-/* Style your components */
+/* FooterStyles.css */
+
+.footer {
+    background: linear-gradient(to right, #030303, #0c0318);
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    padding: 20px;
+    text-align: center; 
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+  }
+  
+  .footer-help-others {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width: 100%; 
+    margin: 10px 0;
+  }
+  
+  .footer-help,
+  .footer-others {
+    width: 48%; 
+    text-align: center;
+  }
+  
+  .footer-help p,
+  .footer-others p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff; 
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff; 
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: orange;
+  }
+  
+  .footer-icons {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    gap: 10px;
+  }
+  
+  .footer-icon {
+    font-size: 2rem;
+    color: #fff; /* Icon color is white */
+    text-decoration: none;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    color: #fff; /* Text color is white */
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 555px) {
+    .footer {
+      padding: 10px; /* Restore padding for larger screens */
+    }
+  
+    .footer-help,
+    .footer-others {
+      width: 100%; /* Occupy full width on small screens */
+    }
+    
+    .footer-icons {
+      justify-content: center; /* Center the icons on small screens */
+    }
+  }
+  
