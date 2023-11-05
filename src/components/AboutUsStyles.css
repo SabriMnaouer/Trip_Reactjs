@@ -1,1 +1,32 @@
-/* Style your components */
+.about-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.about-section {
+  flex: 1;
+  max-width: 400px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h1 {
+  font-size: 2rem;
+  color:darkorange;
+  padding: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
+
+@media screen and (max-width: 850px) {
+  .about-us {
+    flex-direction: column;
+  }
+}

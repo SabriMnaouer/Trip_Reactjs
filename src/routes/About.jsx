@@ -6,12 +6,17 @@ import AboutUs from "../components/AboutUs";
 
 function About() {
   return (
-    <><Navbar />
-    <Hero
-      cName="hero-about"
-      heroImg={AboutImg}
-      title="About"     
-      btnClass="hide" /></>
+    <>
+      <Navbar />
+      <Hero
+        cName="hero-about"
+        heroImg={AboutImg}
+        title="About"
+        btnClass="hide"
+      />
+      <AboutUs/>
+      <Footer />
+    </>
   );
 }
 

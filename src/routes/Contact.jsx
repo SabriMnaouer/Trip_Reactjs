@@ -6,13 +6,17 @@ import ContactForm from "../components/ContactForm";
 
 function Contact() {
   return (
-        <><Navbar />
-    <Hero
-      cName="hero-about"
-      heroImg={ContactImg}
-      title="Contact"     
-      btnClass="hide" /></>
-   
+    <>
+      <Navbar />
+      <Hero
+        cName="hero-about"
+        heroImg={ContactImg}
+        title="Contact"
+        btnClass="hide"
+      />
+      <ContactForm/>
+      <Footer />
+    </>
   );
 }
 

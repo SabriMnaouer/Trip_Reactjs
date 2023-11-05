@@ -1,1 +1,56 @@
-/* Style your components */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-form {
+  width: 90%;
+  max-width: 800px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.contact-form h2{
+font-size: 2rem;
+color: darkorange;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  font-weight:1.5rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+button.submit-button {
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button.submit-button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-form {
+    width: 90%;
+  }
+}

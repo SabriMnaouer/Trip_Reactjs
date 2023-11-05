@@ -1,0 +1,20 @@
+
+.services-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .services-container h2 {
+    font-size: 2rem;
+    color: darkorange;
+    margin-bottom: 20px;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  

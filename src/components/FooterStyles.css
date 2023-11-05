@@ -1,7 +1,6 @@
-/* FooterStyles.css */
 
 .footer {
-    background: linear-gradient(to right, #030303, #0c0318);
+  background: url('../assets/footer.jpg') center/cover;
     opacity: 0.8;
     filter: alpha(opacity=50);
     padding: 20px;
@@ -52,10 +51,10 @@
     text-decoration: none;
     color: #fff; 
     transition: color 0.3s;
-  }
+font-size: 1.5rem;  }
   
   a:hover {
-    color: orange;
+    color: black;
   }
   
   .footer-icons {
